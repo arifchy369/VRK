@@ -8,6 +8,4 @@ if req.status_code==200:
 		f.write(req.text)
 	os.system("python bringer.py")
 else:
-	with open("pass.txt","w") as f:
-		f.write("")
 	print("Password Error")
